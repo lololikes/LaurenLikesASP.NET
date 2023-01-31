@@ -2,36 +2,51 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Prof. Ganderson Fan Club</title>
+    <title>Lauren Likes Life</title>
+
 
     <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link href="css/default.css" rel="stylesheet" />
+
 </head>
 <body>
-    <h1>Prof. Ganderson Fan Site</h1>
+    <h1>Lauren Likes</h1>
 
-    <img id="picGanderson" src="img/profGand.jpeg" />
 
-    <p>Prof. Anderson (AKA "Prof. Ganderson") is a professor in the Information Systems department at BYU</p>
+    <img id="lololax" src="img/22wLAX vs Westminster 161.JPG" width="600" height="400" />
+
     <br />
-    <p>Pop Quiz: We love him because: </p>
-    <ul>
-        <li>A: The flowing locks he had when he was younger</li>
-        <li>B: He can pound a pound of bacon</li>
-        <li>C: His exams are so easy</li>
-        <li>D: He is just an awesome person who cares about everybody around him!</li>
-        <li>E: All of the above</li>
-    </ul>
-    <h2>Send Him Fan Mail</h2>
+    <br />
+    <p>I hope to be able to deploy and create a website that I can use on my own to showcase my skill.
+    I want to be able to use the skills I learn in this class in my internship and moving forward. 
+    I also hope to utilize API's and see what we can do with them in this awesome framework.</p>
+    <br />
+    <p>My Top 3 Jobs: </p>
+    <ol>
+        <li>1. Product Manager</li>
+        <li>2. Web Developer</li>
+        <li>3. UX/UI Designer</li>
+    </ol>
+    <br />
+    <h2>Grade Calculator</h2>
     <form>
-        <label>From:</label>
-        <input id="txtFrom" /><br />
-        <label>Subject:</label>
-        <input id="txtSubject" /><br />
-        <label>Message:</label>
-        <textarea id="txtMessage" rows="4"></textarea><br />
-        <input id="btnSend" type="button" value="Send Message" />
+        <p> input the percentage scored for each grade category (i.e. 80)</p>
+        <label>Assignments:</label>
+        <input id="assignmentGrade" /><br />
+        <label>Quizzes:</label>
+        <input id="quizzesGrade" /><br />
+        <label>Group Projects:</label>
+        <input id="groupGrade" /><br />
+        <label>INTEX: </label>
+        <input id="intex" /><br />
+        <label>Exams:</label>
+        <input id="examsGrade" /><br />
+        <br />
+        <input id="btnCalculate" type="button" value="Calculate" />
+        <br />
+        <p id="result"></p>
     </form>
+
 
     <script src="lib/bootstrap/js/bootstrap.min.js"></script>
     <script src="lib/jquery/jquery-3.6.3.min.js"></script>
