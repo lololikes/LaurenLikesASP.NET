@@ -39,10 +39,12 @@ $("#btnCalculate").click(function () {
 
     const grade = calculateGrade(gradePerc);
 
+    alert("Your Grade is: " + $("#txtFrom").val());
+
     $("#result").html("Score: " + gradePerc + "  Grade:" + grade);
  
 
-    //alert("Your Grade is: " + $("#txtFrom").val() 
+
         //+ ", Subject: " + $("#txtSubject").val()
         //+ ", Message: " + $("#txtMessage").val());
 
